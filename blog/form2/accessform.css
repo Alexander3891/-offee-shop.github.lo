@@ -1,0 +1,63 @@
+body {
+  background: #efe5d0 url(images/background.gif) top left;
+  margin: 20px;
+}
+
+form {
+  display: table;
+  padding: 10px;
+  border: thin dotted #7e7e7e;
+  background-color: #e1ceb8;
+}
+
+div.tableRow {
+  display: table-row;
+}
+
+div.home {
+  margin: 5px;
+  text-align: center;
+}
+
+div.tableRow > p,
+div.tableRow > label,
+div.tableRow > input {
+  display: table-cell;
+  vertical-align: top;
+  padding: 3px;
+}
+div.tableRow label:first-child {
+  text-align: right;
+}
+form textarea {
+  display: table-cell;
+  width: 500px;
+  height: 200px;
+}
+legend {
+  font-weight: bold;
+}
+a:link,
+a:visited {
+  color: #954b4b;
+  border-bottom: none;
+  font-weight: bold;
+
+  /* optional! very hard to see although does help */
+  text-shadow: 1px 1px 3px #e2c2c2;
+
+  /* try this and see if you like it */
+  text-transform: uppercase;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+}
+.homme {
+  display: flex;
+
+  justify-content: center;
+}
